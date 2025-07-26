@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+.cabecalho {
+    background-color: rgb(213,216,179);
+    padding: 10px 0;
+    width:940px;      
+}
+
+.caixa {
+    width:100%;
+    position: relative;
+    margin: auto;
+ }
+
+.logo {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.hmenu {
+    position: absolute;
+    top: 50px;
+    font-size: 10px;
+    right: 20px;
+}
+
+.hmenu ul li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+ 
+.hmenu ul li a{
+    color: #a24b4b;
+    text-decoration: nome;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.hmenu ul li a:hover{
+    color: rgb(224, 134, 30);
+    border-bottom: 1px solid rgb(224, 134, 30);
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.principal {
+    background-color: #f1f1f1;
+    color: #000;
+    margin: 10px 50px;
+    padding: 10px 20px;
+}
