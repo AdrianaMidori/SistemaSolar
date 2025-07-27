@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/menuSistSolar.css" rel="stylesheet">
-    <title>Bem vindo ao Sistema Solar</title>
+    <title>Sistema Solar</title>
    
 </head>
 <body>
@@ -12,35 +12,33 @@
       <div class="caixa">
         
         <h1 class="logo">
-            <img src="img/sistSolar_logo2.jpg" alt="Logo do site">
+            <img src="img/sistSolar_logo.jpg" alt="Logo do site">
         </h1>
         <nav class="hmenu">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="contato.html">Contato</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="./sistemasolar.html" target="frameprincipal">Sistema Solar</a></li>
+                <li><a href="./planetas.html" target="frameprincipal">Planetas</a></li>
+                <li><a href="./astros.html" target="frameprincipal">Astros</a></li>
+                <li><a href="./asteroides.html" target="frameprincipal">Asteroides</a></li>
+                <li><a href="#">Cometas</a></li>
+                <li><a href="#">Satélites</a></li>
+                <li><a href="./contato.html" target="frameprincipal">Contato</a></li>
+                <li><a href="./sobre.html" target="frameprincipal">Sobre</a></li>
             </ul>
         </nav>
       </div>
     </header>
     <main>
-        <aside>
-            <nav class="menulateral">
-                <ul>
-                    <li><a href="sistemasolar.html">Sistema Solar</a></li>
-                    <li><a href="#">Astros</a></li>
-                    <li><a href="#">Asteroides</a></li>
-                    <li><a href="#">Cometas</a></li>
-                    <li><a href="#">Satélites</a></li>
-                    <li><a href="#">Planetas</a></li>
-                </ul>
-            </nav>
-        </aside>
-        <article class="artigo">
-            <h1>
-                Bem vindo ao início da nossa viagem ao Sistema Solar!
-            </h1>
-        </article>
+        <div>
+           <iframe class="frame" src="" name="frameprincipal" ></iframe>
+        </div>
     </main>
+    <footer>
+        <div class="rodape">
+            <p>Responsável pelo site: Adriana Laburú </p>
+            <p>Curso: Programação em Python - Módulo Programação Front-end</p>
+        </div>
+    </footer>
 </body>
 </html>
