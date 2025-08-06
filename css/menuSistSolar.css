@@ -7,7 +7,7 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h3{
+h2, h3{
     text-align: center;
     color: #a24b4b;
     margin-top: 20px;
@@ -31,10 +31,11 @@ p{
     text-indent: 30px;
     line-height: 1.4;
 }
+
 .cabecalho {
     background-color: rgb(213,216,179);
     padding: 10px 0;
-    width:940px;      
+    width:100%;      
 }
 
 .caixa {
@@ -51,7 +52,7 @@ p{
 .hmenu {
     position: absolute;
     top: 50px;
-    font-size: 10px;
+    font-size: 14px;
     right: 20px;
 }
 
@@ -72,6 +73,8 @@ p{
     color: rgb(224, 134, 30);
     border-bottom: 1px solid rgb(224, 134, 30);
 }
+
+
 .texto_centro{
  text-align:center;
 }
@@ -86,7 +89,7 @@ p{
     background-color: aliceblue;
     border: none;
     width: 100%;
-    height: 600px;
+    height: 500px;
     position: relative;
     bottom: 50;
 }
@@ -108,9 +111,7 @@ p{
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    height:50%;
-    width:50%;
-}
+} 
 
 .legenda_centro{
     font-style:italic;
@@ -119,7 +120,7 @@ p{
 }
 
 .rodape{
-    height: 50px;
+    height: 45px;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -131,3 +132,4 @@ p{
 .parag-rodape{
     line-height: 0.8;
 }
+
